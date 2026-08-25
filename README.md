@@ -1,29 +1,26 @@
-# Mesh-Rendered Interior (Unity Version)
+# Mesh-Rendered Interior (WebGL Version)
 
-## Features (Compared to OpenGL Version)
+This `branch` is used to **test** if the WebGL folder I built based on this project can be run and deployed on GitHub Pages successfully.  
 
-###### Implementing a Unity version involved completely different stratgies on file reading and coding, which also involved a lot of work. Thus, the final version of my project is unique enough from what I have done in the original University project.
+###### I think it would be better if I show the steps of how to build a project in WebGL using Unity, which benefits both me and other learners who want to know how to deploy their game on website.
 
-1. **Configure** the original polygon files to something **compatible** with Unity.
-2. Figure out how to **transfer** the **UV coordinates** for triangle meshes into the new compatible files.
-3. **Match the bitmaps** with the new 3D models.
-4. Design a **different method** of **camera controll**, including touchscreen interaction.
-5. Add annotations for better explanation inside the demo.
+## Steps
 
-## Stories Behind the Work
+1. Go to **"File" → "Build Settings..."**.
+2. Select **"WebGL"** and click **"Switch Platform"**.
 
-In the beginning, I thought that transferring a OpenGL project into Unity is *not that hard* because Unity is famous for high compatibility, but I **overlooked** that Unity **cannot recognize** the **original polygon files**, this is where lots of problems/issues start...
+> <img src="Assets/screenshot3a.png" width="480" />
 
-I tried the popular method of converting 3D objects online. The resulting model can be applied in the Scene, but it **cannot recognize** the **texture bitmaps** that should be assigned on each of the model. So, it takes *another long time* for me to figure out the solutions... (And this is probably the hardest part of transferring to Unity.)
+3. **Wait** until the compiling progress is complete...
+4. Once it is complete (And the "Build Settings" window is still up), click **"Player Settings..."**, find **"Publishing Settings" → "Compression Format"** and select ***"Disabled"*** instead. (You will then get the raw files/folders after the build, which is easier to copy-and-paste into GitHub.)
 
-Through tons of research, I finally realized: The original OpenGL project used **vertices** to calculate triangle meshes, where the **UV coordinates** is the ***key*** of encapsulating textured triangle meshes. Then, I dig out online to see how to keep the UV coordinates for every new 3D model, the correct textures can be appplied eventually!
+> <img src="Assets/screenshot3b.png" width="480" />
 
-*(After that, apply a new camera method is much easier compared to those previous steps...)*
+5. Close "Player Settings" window, click **"Build"** and select the location you want.
+6. **Navigate to the folder** where you saved the build, you should see something like this:
 
-## Screenshots
+> <img src="Assets/screenshot3c.png" width="384" />
 
-<img src="Assets/Screenshots/screenshot2a.png" width="720" />
+7. **Put everything** from that folder into your cloned repo, then you can push the changes and deploy the webpage.
 
-<img src="Assets/Screenshots/screenshot2b.png" width="720" />
-
-<img src="Assets/Screenshots/screenshot2c.png" width="720" />
+###### (`My last note`: Hope you have had fun by checking through all my *branches* in order patiently!)
