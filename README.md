@@ -1,8 +1,6 @@
 # Mesh-Rendered Interior (WebGL Version)
 
-###### This branch should have no different source codes than the `gh-pages` branch...
-
-This `branch` is used to **test** if the WebGL folder I built based on this project can be run and deployed on GitHub Pages successfully. (After I transfer all these code files to `gh-pages` branch...)  
+This `branch` is used to **test** if the WebGL folder I built based on this project can be run and deployed on GitHub Pages successfully.  
 
 ###### I think it would be better if I show the steps of how to build a project in WebGL using Unity, which benefits both me and other learners who want to know how to deploy their game on website.
 
