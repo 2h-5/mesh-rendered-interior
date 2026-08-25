@@ -29575,8 +29575,6 @@ struct CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5  : public Mono
 {
 	float ___rotationSpeed;
 	float ___scrollSpeed;
-	float ___touchRotationSpeed;
-	float ___pinchZoomSpeed;
 	float ___wallBufferRadius;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___camTransform;
 	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___wallLayer;

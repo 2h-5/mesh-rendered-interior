@@ -15,7 +15,6 @@
 extern void CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71 (void);
 extern void CameraController_Update_mBCB871B23DBA60444D43AB56D780478BA3D355E6 (void);
 extern void CameraController_HandleDesktopMouse_m4380378149B24DA0EAA7A3C8674C5797690F6B6B (void);
-extern void CameraController_HandleMobileTouch_mE4044EE68E1AE37273F63BD8D2737CE1396523BA (void);
 extern void CameraController_ExecuteMovementWithCollision_mF3BF6D9029BEB4C41EBC0500FD6B61A145339E06 (void);
 extern void CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950 (void);
 extern void InstructionWindow_CloseInstructionWindow_m94D8007FCADCD6EA061171E8C34E3331210F83CE (void);
@@ -26,12 +25,11 @@ extern void TMPLinkOpener_OnPointerClick_m28E392F5235D1580F51915D4B732BF26B9B3C2
 extern void TMPLinkOpener__ctor_m5885957D2B77B3530A56BEDE7917E411A5B18FF1 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[14] = 
+static Il2CppMethodPointer s_methodPointers[13] = 
 {
 	CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71,
 	CameraController_Update_mBCB871B23DBA60444D43AB56D780478BA3D355E6,
 	CameraController_HandleDesktopMouse_m4380378149B24DA0EAA7A3C8674C5797690F6B6B,
-	CameraController_HandleMobileTouch_mE4044EE68E1AE37273F63BD8D2737CE1396523BA,
 	CameraController_ExecuteMovementWithCollision_mF3BF6D9029BEB4C41EBC0500FD6B61A145339E06,
 	CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950,
 	InstructionWindow_CloseInstructionWindow_m94D8007FCADCD6EA061171E8C34E3331210F83CE,
@@ -43,9 +41,8 @@ static Il2CppMethodPointer s_methodPointers[14] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[14] = 
+static const int32_t s_InvokerIndices[13] = 
 {
-	4445,
 	4445,
 	4445,
 	4445,
@@ -64,7 +61,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	14,
+	13,
 	s_methodPointers,
 	0,
 	NULL,

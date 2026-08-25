@@ -729,7 +729,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c133ddc2368c4a54bf4cdb46e5776970
+      Hash: 7c060859ca6a7141e3ca4b41f87b8c50
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraController

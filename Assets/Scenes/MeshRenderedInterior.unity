@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b191fc835179b234fb9805b65336d52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: 5
   scrollSpeed: 100
   touchRotationSpeed: 0.2
   pinchZoomSpeed: 0.5
@@ -1147,8 +1147,7 @@ MonoBehaviour:
     \"LoZ: Ocarina of Time\".\n(The 3D assets were provided from one of my university
     courses, which was modified from <color=#FFFFFF><u><link=\"https://github.com/opengl-tutorials/ogl\">here</link></u></color>.)\nHere
     are some tips for you to explore around:\n1. Click and drag to interact with
-    the camera!\n2. Scroll the wheel (or pinch) to see what will happen!\nHave fun
-    with my work!\n                                                                 
+    the camera!\n2. Scroll the wheel to see what will happen!\nHave fun with my work!\n                                                                 
     \u2014Z."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

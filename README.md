@@ -7,7 +7,7 @@
 1. **Configure** the original polygon files to something **compatible** with Unity.
 2. Figure out how to **transfer** the **UV coordinates** for triangle meshes into the new compatible files.
 3. **Match the bitmaps** with the new 3D models.
-4. Design a **different method** of **camera controll**, including touchscreen interaction.
+4. Design a **different method** of **camera controll**.
 5. Add annotations for better explanation inside the demo.
 
 ## Stories Behind the Work
