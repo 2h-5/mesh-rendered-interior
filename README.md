@@ -1,5 +1,7 @@
 # Mesh-Rendered Interior (Unity Version)
 
+###### This branch should have no different source codes than the `main` branch...
+
 ## Features (Compared to OpenGL Version)
 
 ###### Implementing a Unity version involved completely different stratgies on file reading and coding, which also involved a lot of work. Thus, the final version of my project is unique enough from what I have done in the original University project.
