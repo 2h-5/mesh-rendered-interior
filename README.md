@@ -1,7 +1,7 @@
 ---
 Title: Mesh-Rendered Interior
 Author: Z. Sūn
-Description: 'WebGL-based interactive 3D interior scene; project transferred from OpenGL to Unity with custom meshes encapsulation. Recreation based on "LoZ: Ocarina of Time".'
+Description: 'WebGL-based interactive 3D interior scene; project transferred from OpenGL to Unity with custom mesh-texture encapsulation. Recreation based on "LoZ: Ocarina of Time".'
 Tags:
   - C#
   - C++
