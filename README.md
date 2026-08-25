@@ -1,26 +1,60 @@
-# Mesh-Rendered Interior (WebGL Version)
+---
+Title: Mesh-Rendered Interior
+Author: Z. Sūn
+Description: 'WebGL-based interactive 3D interior scene; project transferred from OpenGL to Unity with custom meshes encapsulation. Recreation based on "LoZ: Ocarina of Time".'
+Tags:
+  - C#
+  - C++
+  - CSS
+  - HTML
+  - JavaScript
+  - Linux
+  - OpenGL
+  - Unity
+  - WebGL
+  - Windows
+Website Link: 'https://2h-5.github.io/mesh-rendered-interior/'
+---
 
-This `branch` is used to **test** if the WebGL folder I built based on this project can be run and deployed on GitHub Pages successfully.  
+#### _**Warning: For better user experience, please open this web game using your PC instead of smartphone...**_
 
-###### I think it would be better if I show the steps of how to build a project in WebGL using Unity, which benefits both me and other learners who want to know how to deploy their game on website.
+###### Belows are my instructions and notes for every user (*player*)  who wants to know more.
 
-## Steps
+# Mesh-Rendered Interior
 
-1. Go to **"File" → "Build Settings..."**.
-2. Select **"WebGL"** and click **"Switch Platform"**.
+Hi, welcome to my mesh-rendered interior game demo recreation...
 
-> <img src="Assets/screenshot3a.png" width="480" />
+> ##### **"We have already seen these sentences in your demo, show something new in your source code website."**
 
-3. **Wait** until the compiling progress is complete...
-4. Once it is complete (And the "Build Settings" window is still up), click **"Player Settings..."**, find **"Publishing Settings" → "Compression Format"** and select ***"Disabled"*** instead. (You will then get the raw files/folders after the build, which is easier to copy-and-paste into GitHub.)
+Alright, **new stuffs**: 
 
-> <img src="Assets/screenshot3b.png" width="480" />
+## Features
 
-5. Close "Player Settings" window, click **"Build"** and select the location you want.
-6. **Navigate to the folder** where you saved the build, you should see something like this:
+###### I have provided some tips in the game demo, but it looks like the window space was compromised, so I have to list more here:
 
-> <img src="Assets/screenshot3c.png" width="384" />
+1. See what happens when you do **click and drag**.
+2. See what happens when you **scroll the wheel**.
+3. If you think the **tips window** is annoying, *there is a way to close it*.
+4. The **text** at the bottom of the game demo **is clickable**. 
 
-7. **Put everything** from that folder into your cloned repo, then you can push the changes and deploy the webpage.
+## Installation
 
-###### (`My last note`: Hope you have had fun by checking through all my *branches* in order patiently!)
+You do not need to install anything to run this game demo, just click on the link given [here](https://2h-5.github.io/mesh-rendered-interior/). Do not worry, this link is not malicious as I deployed it using **GitHub Pages**.
+
+> ###### Warning again: *For better user experience, please open this web app using your PC instead of smartphone...* 
+
+## Stories Behind the Work
+
+This is my second individual **Unity** project, the main idea was based on part of the assignments from one of my university courses —— Computer Graphics.
+
+However, I further extended more functionalities based on the original university project, such as *3D model conversion, new mesh-texture encapsulation, new camera controls, etc.* (Which I will talk a bit more about **iterations** through each prototype in different `branches`.)
+
+And this should make this project unique enough from I have done previously. *(Hopefully...)*
+
+## Screenshots
+
+<img src="Assets/Screenshots/screenshot1.png" width="720" />
+
+<img src="Assets/Screenshots/screenshot2.png" width="720" />
+
+<img src="Assets/Screenshots/screenshot3.png" width="720" />
